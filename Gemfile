@@ -54,8 +54,8 @@ gem 'draper'
 # A Ruby library for working with Research Object Bundle files
 gem 'ro-bundle'
 # A Ruby library to aid the interaction with Taverna 2 workflows
-gem 'workflow_parser', github: 'myExperiment/workflow_parser'
-gem 'taverna-t2flow', github: 'myExperiment/workflow_parser-t2flow'
+gem 'workflow_parser', git: 'https://github.com/myExperiment/workflow_parser'
+gem 'taverna-t2flow', git: 'https://github.com/myExperiment/workflow_parser-t2flow'
 
 # A gem to query the prov.ttl
 gem 'sparql'
